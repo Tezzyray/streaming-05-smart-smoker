@@ -1,15 +1,15 @@
 # streaming-05-smart-smoker
 ```markdown
-# streaming-05-start-smoker
+streaming-05-start-smoker
 
 Olakunle Alabi  
 June 1, 2024  
 
-## Project Goal
+ Project Goal
 
 The goal of the project is to create a producer that processes and sends CSV data to RabbitMQ for a consumer.
 
-## The Problem / Challenge To Solve
+ The Problem / Challenge To Solve
 
 We want to stream information from a smart smoker. Read one value every half minute (sleep_secs = 30).
 
@@ -20,7 +20,7 @@ We want to stream information from a smart smoker. Read one value every half min
 3. **Channel2** = Food A Temp --> send to message queue "02-food-A"  
 4. **Channel3** = Food B Temp --> send to message queue "03-food-B"  
 
-## Requirements
+Requirements
 
 - RabbitMQ Server running
 - Pika installed in .venv
