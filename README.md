@@ -97,5 +97,4 @@ Requirements
     ```
     to send the tasks to the RabbitMQ queue.
     
-## Producer Image
-```
+
